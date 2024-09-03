@@ -1,24 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Chai from "./Chai";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Chai />
+      <h1>
+        Chai aur Code | Suleman Ahmadzai <br /> In this video I have learned the
+        following things:
+        <br /> 1- how to create simple react js project
+        <br /> 2- how to create react js project using vite
+        <br />
+      </h1>
+    </>
   );
 }
 
